@@ -18,3 +18,6 @@ This feature will quickly backup your Visual Studio code files. I use this featu
 When the first backup is triggered and then every 7 days (default), this feature will scan all of your drives for source code. For every folder found, it will ask you if you want to add that folder to the backup process. There is even a "turbo backup" that will backup files with the archive flag set.
 
 This feature will backup files to your OneDrive folder so they will be in the cloud (location can be changed via the config file). By default, this feature will remove any backup folders older than 7 days.
+
+## Features Coming In The Next Version
+- Properly chooses OneDrive folder by default to backkup files to. It favors a OneDrive business account over a personal account.
